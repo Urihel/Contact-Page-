@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>  
+  <body>
+  <!--The nav bar which gives you access to other pages that tell you a bit more about my portfolio-->
+  <nav>
+  <!--Essentially the logo of the page and to let people know that this page belongs to Urihel Coleman-->
+    <h2>Urihel Coleman</h2>
+    <!--the unordered list we used to display our nav bar options. all the a elements will be linked to html pages which contain data in them for you to view.-->
+    <ul>
+      <li><a href="/home.html" target="_blank">Home</a></li>
+      <li><a href="/about.html" target="_blank">About</a></li>
+      <li><a href="/projects.html" target="_blank">Projects</a></li>
+      <li><a href="/blog.html" target="_blank">Blog</a></li>
+      <li><a href="/contact.html" target="_blank">Contact</a></li>
+    </ul>
+  </nav>
+  <!--Just an image to give the page just alittle design-->
+  <img src="http://www.natalielord.com/wp-content/uploads/2014/12/3D-Wather-Drops-Wallpaper-Hd-1920x500.jpg" height="350" width="100%">
+    
+    
+  <!--Contact description and method on how to get in contact with me-->
+  <section>
+    <!-- A heading we gave to the paragraph below-->
+    <h1>Contact us</h1>
+    <!--Small description with instructions on how to reach me-->
+    <p>
+      For project collaborations, freelancing opportunities, or propescting a Developer
+      who has knowledge in Web Development, Web App Development, Web Game Development, Mobile
+      App Development, Front-End Web Development, 
+    </p>
+  </section>
+    
+    
+  <!--The form we will use to send the users information to my backend-->
+  <form action="#" method="#" target="_blank">
+  <!--This is the label for the name       -->
+  <label id="label-1" for="name">Name</label>
+  <br/>
+  <!--This is the text input box for entering your fullname into-->
+  <input type="text" id="name" name="name" placeholder="Enter Name" required/>
+  <br/><br/>
+  <!--This is the label for the email -->
+  <label id="label-2" for="email">Email</label>
+  <br/>
+  <!--This is the text input box for entering you email address-->
+  <input type="text" id="email" name="email" placeholder="Enter Email" required/>
+  <br/><br/>
+  <!-- this is the labelf or message -->
+  <label id="label-3" for="message">Message</label>
+  <br/>
+  <!--This is the textarea for the users to send messages to reach out to me-->
+  <textarea id="message" name="message" maxlength="250" required></textarea>
+  <br/><br/>
+  <!-- Submit Button that submits this form-->
+  <input type="submit" id="submit" name="submit" value="Submit"/>
+  </form>
+    
+  <footer>
+    Urihel Coleman &copy2019 </footer>
+  
+  </body>
+</html>
